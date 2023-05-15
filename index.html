@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/_init.css">
+
+    <title>Counter</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="app">
+                    <span class="app__counter"></span>
+                    <span class="app__timer"></span>
+                    <a id="btn_start" class="app__button app__button_green">START</a>
+                    <a id="btn_plus" class="app__button" data-up="1">+1</a>
+                    <a id="btn_stop" class="app__button app__button_red">PAUSE</a>
+
+                    <table class="app__table">
+                        <thead>
+                            <tr>
+                                <th>Отсечка круга</th>
+                                <th>Время (сек.)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+
+                    <a id="btn_reset" class="app__button app__button_red">RESET</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/counter.js"></script>
+</body>
+</html>
